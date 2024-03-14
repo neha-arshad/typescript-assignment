@@ -1,4 +1,4 @@
-let names = ["Rabeea", "Ayesha" ,"Mahrunnisa","waressha"];
+let names: string[] = ["Rabeea", "Ayesha" ,"Mahrunnisa","waressha"];
 
 let message: string = ("you are my BESTFREIND:)");
 

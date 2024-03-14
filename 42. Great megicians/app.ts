@@ -1,8 +1,8 @@
 
 function show_magicians(magicians: string[]): void {
-    for (const magician of magicians) {
-    console.log(magician);
-    }
+	for (const magician of magicians) {
+		console.log(magician);
+	}
 }
 
 //Call function
@@ -10,11 +10,11 @@ const magicianNames: string[] = ["Harry Houdini", "David Copperfield", "Penn Jil
 //show_magicians(magicianNames);//
 
 // GREAT MEGICIANS//
-function make_great(magicians: string[]): void{
-    // Create a new array with modified magician names
-    for(let i =0; i<magicians.length; i++){
-        magicians[i] = magicians[i]  + ` the great  `;
-    }
+function make_great(magicians: string[]): void {
+	// Create a new array with modified magician names
+	for (let i = 0; i < magicians.length; i++) {
+		magicians[i] = magicians[i] + ` the great  `;
+	}
 
 }
 
